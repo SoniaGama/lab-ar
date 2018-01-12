@@ -1,0 +1,22 @@
+.container100 {
+  width: 100% !important;
+}
+
+.padding-top {
+  padding-top: 2vh;
+}
+
+.white-borde-none {
+  background-color: white;
+  border: none;
+}
+
+.background {
+  padding: 0;
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding: 0% !important;
+  height: 100vh;
+}
