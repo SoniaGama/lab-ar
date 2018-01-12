@@ -17,6 +17,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
-  padding: 0% !important;
+  /* padding: 0% !important; */
   height: 100vh;
 }
