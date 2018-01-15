@@ -29,9 +29,41 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#">Viaja</a></li>
               <li><a href="#">Conduce</a></li>
-              <li><a href="#" data-toggle="modal" data-target="#myModal">Inicia sesión</a></li>
+              <li><a href="#" data-toggle="modal" data-target="#inicia-sesion">Inicia sesión</a></li>
             </ul>
-          </section>
+
+            <div class="modal fade" id="inicia-sesion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+             <div class="modal-dialog" role="document">
+              <div class="modal-content background-green">
+                <div class="modal-header">
+                  <button type="button" class="close color" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <img class="center-block" src="https://dummyimage.com/150x150" alt="">
+                </div>
+                <div class="modal-body">
+
+                    <form class="margin20 padding5 background-white">
+                      <div class="input-group">
+                        <div class="input-group-addon">
+                          <i class="fa fa-user" aria-hidden="true"></i>
+                        </div>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Username">
+                      </div>
+                      <div class="input-group">
+                        <div class="input-group-addon">
+                          <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                        </div>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn background-color color center-block" data-dismiss="modal">LOGING</button>
+                        <p class="pull-left margin-top2vh">Forgot password?<a class="text-danger" href="#">Click Here</a></p>
+                      </div>
+                    </form>
+                </div>
+              </div>
+           </div>
+          </div>
+        </section>
       </nav>
     </header>
   </section>
@@ -43,7 +75,7 @@
           <h3>Disfruta del viaje</h3>
           <h3>Eres dueño de tu tiempo</h3>
           <p>Viaja con<img class="brand" src="assets/images/logoBlanco.png" alt="logo"></p>
-          <h2><button type="button" class="btn btn-default">REGÍSTRATE</button></h2>
+          <h2><button type="button" class="btn btn-default" data-toggle="modal" data-target="#registrate">REGÍSTRATE</button></h2>
 
           <div class="row">
             <span class="col-md-4 col-sm-4"><hr></span>
@@ -54,12 +86,43 @@
         </div>
       </section>
 
+          <div class="modal fade" id="registrate" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+           <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close color" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="btn btn-lg btn-block">Ya tienes una cuenta?</button>
+
+              </div>
+              <div class="modal-body">
+                  <form class="form-inline margin5 background-white color-black">
+                    <p>O crea una cuenta nueva</p>
+                    <div>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Apellido">
+                    </div>
+                  </form>
+
+                    <div class="input-group">
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Correo Electronico">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Teléfono">
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Contraseña">
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ciudad">
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="(Opcional) Código de invitación">
+                    <div class="modal-footer">
+                      <button type="button" class=" btn-lg btn-block background-color color center-block" data-dismiss="modal">ENVIAR</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
       <section class="row background-xs hidden-lg hidden-md visible-sm-* visible-xs-*">
-          <div class="jumbotron margin-top10vh col-md-offset-8 col-sm-offset-8 col-xs-offset-2 background-color radius-none">
+          <div class="jumbotron margin-top10vh col-md-offset-8 col-sm-offset-87 col-xs-offset-2 background-color radius-none">
             <h3>Comienza a viajar</h3>
             <h3>con <img class="brand" src="assets/images/logoBlanco.png" alt="logo"></h3>
 
-            <h2><button type="button" class="btn btn-default">Descarga el app</button></h2>
+            <h2><button type="button" class="btn btn-default">Descarga la app</button></h2>
           </div>
       </section>
     </section>
@@ -130,8 +193,8 @@
     <footer class="jumbotron jumbotron-footer radius-none row">
       <div class="row">
         <img class="col-xs-offset-1" src="assets/images/logoBlanco.png" alt="logo">
-        <hr>
-        <nav class="col-xs-4 col-md-3 col-md-offset-3 col-sm-3 col-sm-offset-1 btn-group-vertical">
+        <div class="white-border-xs margin-top2vh"></div>
+        <nav class="col-xs-4 col-md-3 col-md-offset-3 col-sm-3 col-sm-offset-1 btn-group-vertical margin-top2vh">
          <ul class="padding-left-0">
           <li><a href="#">Viaja</a></li>
           <li class="margin-top2vh"><a href="#">Conduce</a></li>
@@ -144,7 +207,7 @@
          </ul>
         </nav>
 
-        <nav class="col-md-3 col-sm-3 btn-group-vertical li-footer hidden-xs">
+        <nav class="col-md-3 col-sm-3 btn-group-vertical li-footer hidden-xs margin-top2vh">
           <ul class="padding-left-0">
             <li><a href="#">Oportunidades</a></li>
             <li class="margin-top2vh"><a href="#">Nuestra historia</a></li>
@@ -186,9 +249,9 @@
         <a href="https://play.google.com/"><i class="fa fa-play" aria-hidden="true"></i></a>
       </nav>
       <div class="margin-top2vh row">
-        <hr>
+        <div class="white-border-xs margin-top2vh"></div>
       </div>
-      <div class="row text-center">
+      <div class="row text-center margin-top2vh">
         <span>© 2018 LabCar technologies Inc.</span>
       </div>
 
