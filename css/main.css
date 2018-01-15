@@ -1,22 +1,108 @@
-.container100 {
-  width: 100% !important;
+a{
+  color: #fff;
 }
 
-.padding-top {
-  padding-top: 2vh;
+a:hover {
+  color:  #F7B617;
+  text-decoration: none;
 }
 
-.white-borde-none {
+li{
+  list-style: none;
+}
+
+.navbar-default{
   background-color: white;
   border: none;
 }
 
+.margin-top2vh {
+  margin-top: 2vh;
+}
+
+.margin-top10vh {
+  margin-top: 10vh;
+}
+
+.white-border {
+  border: 1px solid #fff;
+  border-left: none;
+}
+
+.white-border-xs {
+  border: 1px solid #fff;
+}
+
 .background {
-  padding: 0;
   background-image: url("../assets/images/taxi.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom center;
-  /* padding: 0% !important; */
-  height: 100vh;
+  background-position: bottom;
+  height: 80vh;
+}
+
+.background-xs {
+  background-image: url("../assets/images/taxi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 60vh;
+}
+
+.jumbotron {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.radius-none {
+  border-radius: 0px !important;
+}
+
+.padding-left-0 {
+  padding-left: 0px !important;
+}
+
+.margin5 {
+  margin: 5%;
+}
+
+.xs-phone {
+   width: 70%;
+   margin-left: 15%;
+}
+
+.brand{
+  margin-left: 2%;
+  width: 30%;
+}
+
+.text-phone{
+  width: 50vh;
+  margin-right: 10%;
+  margin-top: 10vh;
+}
+
+.background-drive {
+  background-image: url("../assets/images/conduce.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+}
+
+.jumbotron-drive {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 70vh;
+}
+
+.background-color {
+  background-color: #F7B617;
+}
+
+.jumbotron-footer {
+  background-color: #2B2B2B;
+}
+
+.a-exception:hover{
+  color: #000;
 }
