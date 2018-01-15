@@ -29,7 +29,7 @@
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#">Viaja</a></li>
               <li><a href="#">Conduce</a></li>
-              <li><a href="#">Inicia sesión</a></li>
+              <li><a href="#" data-toggle="modal" data-target="#myModal">Inicia sesión</a></li>
             </ul>
           </section>
       </nav>
@@ -65,7 +65,7 @@
     </section>
 
     <section class="row jumbotron padding-left-0 background-color radius-none  hidden-xs hidden-sm visible-md-* visible-lg-*">
-      <section class="col-md-10 col-sm-10 col-lg-10 white-border">
+      <section class="col-md-11 col-sm-11 col-lg-11 white-border">
         <img class="margin5 " src="assets/images/iPhone6Plus.png" alt="iPhone">
         <article class="pull-right text-phone">
           <h3>Descarga la nueva app</h3>
@@ -83,12 +83,7 @@
       <section class="margin-top2vh">
         <h4>Llega a tu destino aún más rápido</h4>
       </section>
-
     </section>
-
-
-
-
 
     <section class="background-drive row">
       <section class="jumbotron col-md-offset-8 col-sm-offset-8 jumbotron-drive radius-none">
@@ -99,7 +94,7 @@
     </section>
 
     <section class="row background-color jumbotron radius-none">
-      <form class="form-horizontal col-md-4 col-sm-4">
+      <form class="form-horizontal col-md-4 col-sm-4 col-xs-12">
         <div class="row form-group">
           <h3 class="col-md-offset-1 col-sm-offset-1">Tarifas</h3>
           <p>Consulta las tarifas LabCar<a href="#" class="a-exception"> aquí</a></p>
@@ -134,10 +129,10 @@
 
     <footer class="jumbotron jumbotron-footer radius-none row">
       <div class="row">
-        <img src="assets/images/logoBlanco.png" alt="logo">
+        <img class="col-xs-offset-1" src="assets/images/logoBlanco.png" alt="logo">
         <hr>
-        <nav class="col-md-3 col-md-offset-3 col-sm-3 col-sm-offset-3 btn-group-vertical">
-         <ul>
+        <nav class="col-xs-4 col-md-3 col-md-offset-3 col-sm-3 col-sm-offset-1 btn-group-vertical">
+         <ul class="padding-left-0">
           <li><a href="#">Viaja</a></li>
           <li class="margin-top2vh"><a href="#">Conduce</a></li>
           <li class="margin-top2vh"><a href="#">Ciudades</a></li>
@@ -149,8 +144,8 @@
          </ul>
         </nav>
 
-        <nav class="col-md-3 col-sm-3 btn-group-vertical li-footer">
-          <ul>
+        <nav class="col-md-3 col-sm-3 btn-group-vertical li-footer hidden-xs">
+          <ul class="padding-left-0">
             <li><a href="#">Oportunidades</a></li>
             <li class="margin-top2vh"><a href="#">Nuestra historia</a></li>
             <li class="margin-top2vh"><a href="#">API de LabCar</a></li>
@@ -162,18 +157,32 @@
           </ul>
         </nav>
 
-        <nav class="col-md-3 col-sm-3 btn-group-vertical margin-top10vh">
+        <nav class="row visible-xs-* visible-sm-* hidden-md hidden-lg">
+
+          <a class="col-sm-1 col-xs-1" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a class="col-sm-1 col-xs-1" href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a class="col-sm-1 col-xs-1" href="https://mx.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a class="col-sm-1 col-xs-1" href="https://www.apple.com/"><i class="fa fa-apple" aria-hidden="true"></i></a>
+          <a class="col-sm-1 col-xs-1" href="https://play.google.com/"><i class="fa fa-play" aria-hidden="true"></i></a>
+          
+          <a href="https://www.apple.com/"><img class=" margin5 col-xs-3 col-sm-4" src="assets/images/appstore.png" alt="appstore"></a>
+          <a href="https://play.google.com/"><img class=" margin5 col-xs-3 col-sm-4" src="assets/images/enBadgeWebGeneric.png" alt="googlePlay"></a>
+
+        </nav>
+        </nav>
+
+        <nav class="col-md-3 col-lg-3 btn-group-vertical margin-top10vh hidden-xs hidden-sm">
           <a href="https://www.apple.com/"><img class="margin-top10vh" src="assets/images/appstore.png" alt="appstore"></a>
           <a href="https://play.google.com/"><img class="margin-top2vh" src="assets/images/enBadgeWebGeneric.png" alt="googlePlay"></a>
         </nav>
       </div>
 
-      <nav class="row pull-left li-footer">
-        <a class="col-md-1 col-sm-1" href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-        <a class="col-md-1 col-sm-1" href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a class="col-md-1 col-sm-1" href="https://mx.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        <a class="col-md-1 col-sm-1" href="https://www.apple.com/"><i class="fa fa-apple" aria-hidden="true"></i></a>
-        <a class="col-md-1 col-sm-1" href="https://play.google.com/"><i class="fa fa-play" aria-hidden="true"></i></a>
+      <nav class="row li-footer visible-md-* visible-lg-* hidden-sm hidden-xs">
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="https://mx.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://www.apple.com/"><i class="fa fa-apple" aria-hidden="true"></i></a>
+        <a href="https://play.google.com/"><i class="fa fa-play" aria-hidden="true"></i></a>
       </nav>
       <div class="margin-top2vh row">
         <hr>
